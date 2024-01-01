@@ -1,0 +1,17 @@
+{
+  "name": "random-wizard",
+  "version": "0.0.1",
+  "description": "The wizard that does random activities.",
+  "main": "./lib/index.js",
+  "scripts": {
+    "compile": "coffee -c -o ./lib ./src",
+    "test": "npm run compile && node test.js"
+  },
+  "repository": {
+    "url": "https://github.com/nehalsci/random-wizard",
+    "type": "git"
+  },
+  "author": "Nehal <https://github.com/nehalsci>",
+  "license": "MIT",
+  "private": false
+}
